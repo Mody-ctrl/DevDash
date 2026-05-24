@@ -6,14 +6,10 @@ A real-time sales analytics dashboard I built to track revenue, conversions, act
 
 | What | Why |
 |---|---|
-| **React 18** + **TypeScript** | Main framework, keeps things type-safe |
-| **Vite 6** | Fast builds and hot reload, way better than CRA |
-| **Tailwind CSS 3** | Utility-first, all styling is custom classes |
-| **React Router v6** | Client-side routing, no server needed |
-| **Recharts 2** | All the charts — bar, line, funnel, radial, area |
+| **React ** + **TypeScript** | Main framework, keeps things type-safe |
+| **Vite ** | Fast builds and hot reload, way better than CRA |
+| **Tailwind CSS ** | Utility-first, all styling is custom classes |
 | **GSAP 3** | Page-load animations on the sidebar and layout |
-| **lucide-react** | Icons for the sidebar, cards, and metrics |
-| **@heroicons/react** | More icons used across the dashboard widgets |
 
 ## Project Structure
 
