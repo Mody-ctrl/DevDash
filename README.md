@@ -52,27 +52,5 @@ Dashboard/
 └── postcss.config.js              # Tailwind + Autoprefixer
 ```
 
-## Getting Started
 
-```bash
-npm install
-npm run dev
-```
 
-Open [http://localhost:4028](http://localhost:4028). Everything is client-side — no backend, no database, no API keys needed.
-
-## Scripts
-
-- `npm run dev` — Dev server at localhost:4028
-- `npm run build` — TypeScript check + production build to `dist/`
-- `npm run preview` — Preview the production build
-- `npm run lint` — ESLint check
-- `npm run format` — Prettier formatting
-
-## Notes
-
-- The sidebar nav links all point to `/` since this is a single-page dashboard. No multi-page routing needed yet.
-- All chart data is hardcoded mock data in each component — swap it out with real API calls whenever.
-- Images in `public/assets/images/` don't exist yet, so the logo/avatar fall back to text initials gracefully.
-- The theme is a teal/violet dark scheme using CSS custom properties — easy to tweak in `src/styles/index.css`.
-- Port 4028 because that's what I had open. Change it in `vite.config.ts` if it conflicts.
